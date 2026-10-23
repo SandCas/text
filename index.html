@@ -3,201 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>파노라마 웹페이지 실습</title>
-  <link href="css/reset.css" rel="stylesheet">
+  <title>슬라이드 연습문제</title>
   <link href="css/style.css" rel="stylesheet">
-  <script src="js/jquery-4.0.0.js"></script>
+  <script src="js/jquery-1.12.3.js"></script>
   <script src="js/script.js" defer></script>
-  <script src="https://kit.fontawesome.com/5a7895e034.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container">
-    <video src="imgs/bg.mp4" loop autoplay muted></video>
-    <div class="wrap">
-      <div class="box box1">
-        <div class="box_title">Co Company</div>
-        <ul class="inner">
-          <li>
-            <i class="fa-brands fa-android"></i>
-            <p>Android</p>
-          </li>
-          <li>
-            <i class="fa-brands fa-apple"></i>
-            <p>Apple</p>
-          </li>
-          <li>
-            <i class="fa-brands fa-square-twitter"></i>
-            <p>Twitter</p>
-          </li>
-          <li>
-            <i class="fa-brands fa-square-facebook"></i>
-            <p>Facebook</p>
-          </li>
-          <li>
-            <i class="fa-brands fa-youtube"></i>
-            <p>Youtube</p>
-          </li>
-          <li>
-            <i class="fa-brands fa-google-play"></i>
-            <p>Google</p>
-          </li>
-        </ul>
-      </div>
-      <div class="box box2">
-        <div class="box_title">Temperature</div>
-        <div class="inner">
-          <div class="temp_top">
-            <p>weather</p>
-            <p>
-              <i class="fa-brands fa-mixcloud"></i>
-              <span>26˚</span>
-            </p>
-          </div>
-          <div class="temp_bt">
-            <i class="fa-solid fa-sun"></i>
-            <p>Sunny</p>
-            <p>Afternoon temperature</p>
-            <p>23˚</p>
-          </div>
-          <div class="temp_bt">
-            <i class="fa-solid fa-bolt"></i>
-            <p>Lightning</p>
-            <p>Night temperature</p>
-            <p>18˚</p>
-          </div>
-        </div>
-      </div>
-      <div class="box box3">
-        <div class="box_title">Promotion</div>
-        <div class="inner">
-          <div>
-            <video src="imgs/loop.mp4" loop autoplay muted></video>
-            <img src="imgs/line.png" alt="">
-            <img src="imgs/txt2.png" alt="">
-            <p>Promote<br>Your<br>Company</p>
-          </div>
-        </div>
-      </div>
-      <div class="box box4">
-        <div class="box_title">Services</div>
-        <ul class="inner">
-          <li>
-            <i class="fa-solid fa-rss"></i>
-            <div class="box4_txt">
-              <p>Network Services</p>
-              <p>Here comes the contents for Network Show this in Detail</p>
-            </div>
-          </li>
-          <li>
-            <i class="fa-solid fa-code"></i>
-            <div class="box4_txt">
-              <p>Technical Support</p>
-              <p>Here comes the contents for Network Show this in Detail</p>
-            </div>
-          </li>
-          <li>
-            <i class="fa-solid fa-envelope"></i>
-            <div class="box4_txt">
-              <p>Customer Servieces</p>
-              <p>Here comes the contents for Network Show this in Detail</p>
-            </div>
-          </li>
-          <li>
-            <i class="fa-solid fa-list"></i>
-            <div class="box4_txt">
-              <p>Contact Lists</p>
-              <p>Here comes the contents for Network Show this in Detail</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="box box5">
-        <div class="box_title">DCODELAB</div>
-        <div class="inner">
-          <img src="imgs/tit.png" alt="">
-          <figure>
-            <img src="imgs/robot.png" alt="">
-          </figure>
-          <img src="imgs/txt.png" alt="">
-          <a href="#">
-            <img src="imgs/btn.png" alt="">
-          </a>
-          <img src="imgs/reflect.png" alt="" class="reflect">
-        </div>
-      </div>
-      <div class="box box6">
-        <div class="box_title">Advertisement</div>
-        <div class="inner">
-          <div class="box6_top">
-            <video src="imgs/intro.mp4" controls></video>
-            <p>Promotion</p>
-            <p>
-              Here comes Promotion contents in Detail.Here comes Promotion contents in Detail.Here comes Promotion contents in Detail.
-              <br><br>
-              Here comes Promotion contents in Detail.Here comes Promotion contents in Detail.
-            </p>
-          </div>
-          <div class="box6_bt">
-            <p>Information</p>
-            <ul class="list">
-              <li>
-                <a href="#">Here comes Text dscription</a>
-                <span>2026-10-07</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="box box7">
-        <div class="box_title">Members</div>
-        <ul class="inner">
-          <li>
-            <figure><img src="imgs/member1.jpg" alt=""></figure>
-            <div class="txtbox">
-              <p>Member Infomation1</p>
-              <p>
-                Here comes Member Information contents in Detail.Here comes  Member Infomation contents in Detail.
-              </p>
-              <p>2026-10-07</p>
-            </div>
-          </li>
-          <li>
-            <figure><img src="imgs/member2.jpg" alt=""></figure>
-            <div class="txtbox">
-              <p>Member Infomation2</p>
-              <p>
-                Here comes Member Information contents in Detail.Here comes  Member Infomation contents in Detail.
-              </p>
-              <p>2026-10-07</p>
-            </div>
-          </li>
-          <li>
-            <figure><img src="imgs/member3.jpg" alt=""></figure>
-            <div class="txtbox">
-              <p>Member Infomation3</p>
-              <p>
-                Here comes Member Information contents in Detail.Here comes  Member Infomation contents in Detail.
-              </p>
-              <p>2026-10-07</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="box box8">
-        <div class="box_title">What's New</div>
-        <div class="inner">
-          <p>News n Article</p>
-          <img src="imgs/pattern.jpg" alt="">
-          <p>What is Lorem Ipsum?</p>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br><br>
-            Lorem Ipsum has been the industry's standard.
-            dummy text of the printing and typesetting Lorem Ipsum has been the industry's standard.
-          </p>
-          
-        </div>
-      </div>
+  <div class="container1">
+    <h1>slide 유형1 - 좌우 슬라이드</h1>
+    <div class="main1">
+      <div class="slide slide1"><a href="#"></a></div>
+      <div class="slide slide2"><a href="#"></a></div>
+      <div class="slide slide3"><a href="#"></a></div>
     </div>
-  </div>
+  </div><!--container 1 end-->
+  <div class="container2">
+    <h1>slide 유형2 - 상하 슬라이드</h1>
+    <div class="main2">
+      <div class="slide slide1"><a href="#"></a></div>
+      <div class="slide slide2"><a href="#"></a></div>
+      <div class="slide slide3"><a href="#"></a></div>
+    </div>
+  </div><!--container 2 end-->
+  <div class="container3">
+    <h1>slide 유형3 - fadeIn/fadeOut</h1>
+    <div class="main3">
+      <div class="slide slide1"><a href="#"></a></div>
+      <div class="slide slide2"><a href="#"></a></div>
+      <div class="slide slide3"><a href="#"></a></div>
+    </div>
+  </div><!--container 3 end-->
 </body>
 </html>
